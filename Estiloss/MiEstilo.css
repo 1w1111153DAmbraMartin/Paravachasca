@@ -1,0 +1,157 @@
+/* Prevent horizontal scroll on the whole page */
+body {
+    overflow-x: hidden;
+  }
+  
+  /* Ensure text wraps and doesn’t break layout */
+  div {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  
+.navbar-custom{
+    background-color: #9eca45;
+}
+
+.imagenfondo{
+    background-image: url(https://i.ytimg.com/vi/nsMmuv1tI3Q/maxresdefault.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.imagenresponsiva{
+    max-width: 100%;
+    height: auto;
+}
+
+/* Set fixed height for the carousel */
+ #carouselExampleCaptions {
+  height: 75vh;
+  overflow: hidden;
+} 
+
+.carousel-item {
+  position: relative;
+  overflow: hidden;
+  height: 70vh;
+}
+
+.carousel-item img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 2rem;
+  left: 0;
+  right: 0;
+  padding: 1rem;
+  z-index: 2;
+  background: none;
+  border-radius: 10px;
+}
+
+.imagenopaca{
+  opacity: 0.3;
+}
+
+.tiempo{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: fantasy;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+
+
+
+}
+
+.iconoig{
+  height: 100%;
+  width: 100%;
+  background-color: #9eca45;
+  mask: url(https://img.icons8.com/?size=100&id=32292&format=png&color=000000);
+  mask-size: 100%;
+  mask-position: center;
+  mask-repeat: no-repeat;
+}
+.iconof{
+  height: 100%;
+  width: 100%;
+  background-color: #9eca45;
+  mask: url(https://img.icons8.com/?size=100&id=87264&format=png&color=000000);
+  mask-size: 100%;
+  mask-position: center;
+  mask-repeat: no-repeat;
+}
+.iconoyt{
+  height: 100%;
+  width: 100%;
+  background-color: #9eca45;
+  mask: url(https://img.icons8.com/?size=100&id=36908&format=png&color=000000);
+  mask-size: 100%;
+  mask-position: center;
+  mask-repeat: no-repeat;
+}
+.iconomail{
+  height: 100%;
+  width: 100%;
+  background-color: #9eca45;
+  mask: url(https://img.icons8.com/?size=100&id=12580&format=png&color=000000);
+  mask-size: 100%;
+  mask-position: center;
+  mask-repeat: no-repeat;
+
+}
+.hidden{
+
+  overflow: hidden;
+  object-fit: cover;
+  
+}
+
+.imgs-delgrid {
+  max-width: 100%;
+  width: 250px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+.card-bg-color{
+  background-color: rgb(168, 180, 193);
+}
+
+.bordes-sup-inf{
+  border-style: solid hidden;
+  border-color: #faf500;
+  
+}
+
+.titulos{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: antiquewhite;
+}
+.btn.btn-custom:hover {
+  
+  background-color: #faf500;
+  
+}
+
+.areatexto{
+  width: 100%;
+  resize: none;
+}
+.icono{
+  height: 2%;
+  width: 2%;
+}
+.coloramarillo{
+  color: #faf500;
+}
